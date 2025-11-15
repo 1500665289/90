@@ -1,0 +1,22 @@
+<Properties><List>	
+
+<!--淬体速度-->
+<Property Name="BodyPratice_QuenchingSpeed">
+	<DisplayName>淬体速度</DisplayName>
+	<Desc>炼体者淬炼身体的速度。</Desc>
+	<DisplayValue>{0:P}</DisplayValue>
+	<PropertyType>Body</PropertyType>
+	<FunctionKind>修炼属性</FunctionKind>
+	<ShowInUI>1</ShowInUI>	
+	<SupportCustom>1</SupportCustom>
+	<BaseValue>100</BaseValue>
+	<MaxValue>100</MaxValue>
+	<MinValue>0.01</MinValue> 
+	
+	<Skills>
+		<li Name="Medicine" Weight="1" Base="100" Addion="100"/>
+	</Skills>
+</Property>
+
+
+</List></Properties>
